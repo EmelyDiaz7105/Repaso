@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?faily=Poppins:wght@300;600;700;800&faily=Rubik:wght@300;400;500;600&display=swap');
+/* 
+Fonts:
+- Poppins: 300, 400, 500, 600, 700, 800
+- Rubik 300, 400, 500, 600
+*/
+
+:root {
+    --primary-color: #ff6b6b;
+    --secondary-color: #794afa;
+    --secondary-dark-color: #453c5c;
+
+    --white-color: #ffffff;
+    --Light-bg-color: #f2f3f5;
+    --Light-text-color: #7c899a;
+    --dark-color: #0a021c;
+
+
+    --font-small: 13px;
+    --font-smaller: 11px;
+
+    --percent100: 100%;
+    --percent50: 50%;
+
+
+    --fw3: 300;
+    --fw5: 500;
+    --fw6: 600;
+    --fw7: 700;
+    --fw8: 800;
+
+
+    --trans-backgroud-color: backgroud-color .3s, color .3s;
+    --trans-backgroud: backgroud-color .3s;
+    --trans-color: color .3s;
+}
+
+*{
+    margin: 0;
+    padding: 0;  
+}
+*,::before, ::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: var(--white-color);
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    -webkit-tap-highlight-color: transparent;
+}
+ul {
+    list-style: none;
+}
+img {
+    max-width: var(--percent100);
+    vertical-align: middle;
+}
+strong {
+    font-weight: var(--fw8);
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+input::placeholder {
+    font: inherit;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Poppins';
+}
+
+h1 {
+    font-size: calc(1.3e + 1vvw);
+    font-weight: var(--fw8);
+    line-height: 1;
+}
+h2 {
+    font-size: 2.5em;
+}
+h3 {
+    font-size: 1.2em;
+    font-weight: var(--fw7);
+}
+h4 {
+    font-size: 1em;
+    font-weight: var(--fw6);
+}
+
+/*-----------------
+*REUSABLE SELECTOR
+* ---------------*/
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 0.938em;
+}
+
+
+.colum {
+    margin-left: -0.938;
+    margin-right: -0.938;
+}
+
+
+.colum .row {
+    padding: 0 0.938em;
+}
+
+.flexwrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+.flexitem {
+    display: flex;
+    align-items: center;
+}
+.flecol {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------
+* Structure Styling
+
+00. Reusable selectors
+
+01. Header
+    a. Header Top
+    b. Header Nav
+    c. Header Main, Departments Category
+    d. Search Form
+    e. Responsive Menu - OFF Canvas
+0.2 SLIDER
+0.3 BRANDS
+0.4 PRODUCT
+     a. Global product
+     b. BIG product
+     c. MINI product
+0.5 BANNER
+    a. News Letter
+    b. Widgets
+    c. Footer Info
+0.6 BOTTOM MENU
+    a. Search
+0.7 OVERLAY
+0.8 PAGE SINGLE
+    a. Breadcrumb
+    b. Product details
+    c. Product description
+    d. Product Review
+    e. Product Review Form
+0.9 PAGE SINGLE: SPECIAL OFFER
+10. PAGE CATEGORY
+    a. Sidebar product filter
+    b. Product block
+11. CART
+12. PAGE CART
+13. PAGE CHECKOUT
+14. MODAL
+15. RESPONSIVE
+*
+* ------------*/
+
+
+/*------------
+*01. HEADER
+* ------------*/
+
+
+
+
+       /* 0.1 HEADER -------------------
+       *    a. Header Top
+       * --------------*/
+
+
+
+
+       /* 0.1 HEADER -------------------
+       *    b. Header Nav
+       * --------------*/
+
+
+
+
+       /* 0.1 HEADER -------------------
+       *    c. Header Main, Departaments category
+       * --------------*/
+
+
+
+
+       /* 0.1 HEADER -------------------
+       *    d. Search Form
+       * --------------*/
+
+
+
+
+       /* 0.1 HEADER -------------------
+       *    e. Responsive MENU - OFF Canvas
+       * --------------*/
+
+
+
+
+/*------------
+*02. SLIDER
+* ------------*/
+
+
+
+
+/*------------
+*03. BRANDS
+* ------------*/
+
+
+
+
+/*------------
+*04. PRODUCT BLOCK STYLE
+* ------------*/
